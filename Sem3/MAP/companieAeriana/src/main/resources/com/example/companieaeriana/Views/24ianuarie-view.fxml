@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.companieaeriana.Controller.IanuarieController">
+   <children>
+      <TableView fx:id="flightsTable" prefHeight="400.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="idColumn" prefWidth="60.0" text="id" />
+            <TableColumn fx:id="fromColumn" prefWidth="108.0" text="from" />
+            <TableColumn fx:id="toColumn" prefWidth="108.0" text="to" />
+            <TableColumn fx:id="departureTimeColumn" prefWidth="108.0" text="departureTime" />
+            <TableColumn fx:id="landingTimeColumn" prefWidth="108.0" text="landingTime" />
+            <TableColumn fx:id="purchaseTimeColumn" prefWidth="108.0" text="purchaseTime" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
