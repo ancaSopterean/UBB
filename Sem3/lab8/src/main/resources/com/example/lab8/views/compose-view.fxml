@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="386.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab8.controller.ComposeController">
+   <children>
+      <TextField fx:id="textFieldTo" layoutX="93.0" layoutY="82.0" prefHeight="26.0" prefWidth="434.0" promptText="user1, user2...">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="58.0" layoutY="88.0" text="to:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="133.0" text="message">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textAreaMessage" layoutX="93.0" layoutY="131.0" prefHeight="200.0" prefWidth="434.0" promptText="dear user1, ...">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="207.0" layoutY="340.0" mnemonicParsing="false" text="cancel" />
+      <Button layoutX="339.0" layoutY="339.0" mnemonicParsing="false" onAction="#handleSend" text="send" />
+      <TextField fx:id="textFieldFrom" layoutX="93.0" layoutY="29.0" prefHeight="26.0" prefWidth="434.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="41.0" layoutY="34.0" text="from:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
