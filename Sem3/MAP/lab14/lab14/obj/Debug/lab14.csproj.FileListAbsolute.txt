@@ -1,0 +1,7 @@
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\bin\Debug\lab14.exe
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\bin\Debug\lab14.pdb
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\obj\Debug\lab14.csproj.AssemblyReference.cache
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\obj\Debug\lab14.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\obj\Debug\lab14.csproj.CoreCompileInputs.cache
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\obj\Debug\lab14.exe
+C:\Users\Anca\Documents\GitHub\UBB\Sem3\MAP\lab14\lab14\obj\Debug\lab14.pdb
